@@ -30,6 +30,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .content{
@@ -59,7 +60,7 @@ body{
     color: var(--desaturated-blue);
 }
 
-.teste{
+.music_plan{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,6 +114,10 @@ body{
 
 .buttons a{
     text-decoration: none;
+}
+
+footer{
+    margin: 20px;
 }
 
 
